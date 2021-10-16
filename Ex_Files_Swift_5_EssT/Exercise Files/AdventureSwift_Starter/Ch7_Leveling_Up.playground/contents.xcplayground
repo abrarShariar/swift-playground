@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Swift enumerations'/>
+        <page name='Raw and associated values'/>
+        <page name='Introducing protocols'/>
+        <page name='Throwing errors'/>
+        <page name='Handling errors'/>
+    </pages>
+</playground>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Variables and constants'/>
+        <page name='Type safety and inference'/>
+        <page name='Logging and commenting'/>
+        <page name='Swift operators'/>
+        <page name='Understanding strings'/>
+        <page name='Working with strings'/>
+        <page name='Type conversions'/>
+        <page name='Booleans and logical operators'/>
+        <page name='Introducing optionals'/>
+    </pages>
+</playground>

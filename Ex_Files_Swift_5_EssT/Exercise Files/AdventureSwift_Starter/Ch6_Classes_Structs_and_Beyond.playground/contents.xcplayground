@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Basic swift classes'/>
+        <page name='Access modifiers and properties'/>
+        <page name='Subclassing in swift'/>
+        <page name='Basic swift structs'/>
+        <page name='Chaining optionals'/>
+    </pages>
+</playground>
