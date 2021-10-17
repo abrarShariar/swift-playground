@@ -15,10 +15,21 @@
 
  */
 // Creating dictionaries
+var scores: [String: Double] = [:];
 
+scores["LAGox"] = 19.123
+scores["NYTime"] = 123.00
+scores["BD"] = 0.00
 
 // Accessing and modifying values
 
+print(scores)
+print(scores["BD"]!)
+
+scores.values
+
+print(scores.keys.count)
+print(scores.values.count)
 
 // All keys and values
 

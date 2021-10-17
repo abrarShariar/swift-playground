@@ -14,10 +14,31 @@
 
  */
 // Creating sets
+var mySet : Set<String> = ["C++", "C", "Java"]
+var mySet2 : Set<String> = ["JavaScript", "Python", "C++"]
 
 
-// Inserting and removing elements
+print(mySet.intersection(mySet2))
+
+print(mySet2.subtract(other: mySet2))
+
+//print(mySet2)
 
 
-// More common methods
 
+//
+//
+//var newItem = mySet.insert("R")
+//
+//print(newItem.inserted)
+//
+//print(mySet.contains("C++"))
+//print(mySet.contains("Abrar"))
+//
+//// Inserting and removing elements
+//print(mySet.remove("Java")!)
+//print(mySet)
+//
+//
+//// More common methods
+//mySet.sorted()

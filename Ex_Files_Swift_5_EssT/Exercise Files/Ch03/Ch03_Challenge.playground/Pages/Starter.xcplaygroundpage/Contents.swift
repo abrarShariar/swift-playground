@@ -15,18 +15,40 @@
  
  */
 // 1
+var shopItemsArray: [String] = ["Car", "Clothes", "Food"]
+var shopItemsDict: [String: Double] = [:]
+shopItemsDict["Car"] = 90.12
+shopItemsDict["Clothes"] = 23.23
+shopItemsDict["Food"] = 234.12
+shopItemsDict["Wine"] = 100
 
 // 2
+shopItemsArray.contains("Food")
 
 // 3
+shopItemsArray.insert("Wine", at: 1)
 
 // 4
+var selectedItem = shopItemsArray[1]
 
 // 5
+var selectedItemPrice = shopItemsDict[selectedItem]
 
 // 6
+var fullArmorSet: Set<String> = ["Sword", "Pistol", "Guns"]
 
 // 7
+var currentArmorSet: Set<String> = ["Sword"]
+fullArmorSet.subtract(currentArmorSet)
+print(fullArmorSet)
+
 
 // 8
+var armorPieceTuple = (name: "Abrar Shariar", cost: 123.123, canEquip: true)
+
+print(armorPieceTuple.name)
+print(armorPieceTuple.cost)
+print(armorPieceTuple.canEquip)
+
+
 
