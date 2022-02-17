@@ -18,11 +18,11 @@ Declaring variables in Swift depends on how you plan to use their values in your
 var currentHealth = 90
 let maxHealth = 100
 
-currentHealth = 912123
-//ma
+currentHealth = 13
+//maxHealth = 110
 
-var a1 = 10, a2 = 30, a4 = 90
-// no semi-colon necessary
+var inventoryItems = 5, equipmentSlots = 3, currentGold = 10
+
 
 
 

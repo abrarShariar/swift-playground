@@ -14,6 +14,18 @@
 
  */
 // While loop
+var test = 10
+while test >= 0 {
+    print(test)
+    test -= 1
+}
+
 
 // Repeat-while loop
+test = 0
+repeat {
+    print("hello world")
+    test += 1
+} while (test < 10)
+
 

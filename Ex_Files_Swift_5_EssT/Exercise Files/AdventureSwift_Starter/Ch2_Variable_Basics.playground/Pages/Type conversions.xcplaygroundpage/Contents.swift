@@ -14,19 +14,26 @@
  
 */
 // Test variables
-let doubleNum: Double = 912.12
-let intNum: Int = 1229
+//let doubleNum: Double = 912.12
+//let intNum: Int = 1229
+//
+//let sum = Int(doubleNum) + intNum
+//
+//print(sum)
+//
+//// Explicit conversions
+//
+//
+//// Inferred conversion with operators
+//let name: String = "Abrar Shariar"
+//let age: Int = 10
+//
+//print(String(age) + name)
 
-let sum = Int(doubleNum) + intNum
+var myDobValue : Double = 99.9912
+var myIntVal : Int = Int(myDobValue)
+print(myIntVal)
 
-print(sum)
+print(String(myDobValue))
 
-// Explicit conversions
-
-
-// Inferred conversion with operators
-let name: String = "Abrar Shariar"
-let age: Int = 10
-
-print(String(age) + name)
 

@@ -14,7 +14,16 @@
 
  */
 // Test variables
+let set1 : Set<String> = ["C++", "C", "JavaScript", "LLVM", "PHP"]
+let set2 : Set<String> = ["Docker", "Jest", "LLVM"]
 
+let intersectionSet = set1.intersection(set2)
+let diffSet = set1.symmetricDifference(set2)
+
+let unionSet = set1.union(set2)
+print(diffSet)
+print(intersectionSet)
+print(unionSet)
 
 // Set operations
 

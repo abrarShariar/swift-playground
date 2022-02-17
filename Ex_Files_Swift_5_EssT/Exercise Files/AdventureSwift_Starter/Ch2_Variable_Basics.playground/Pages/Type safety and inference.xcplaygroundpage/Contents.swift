@@ -18,13 +18,19 @@
 let currentHealth = 90
 let characterName: String;
 characterName = "Swift is Fun!"
+
 let name: String;
 let nameCount: Int;
 
 // Type annotation
+let maxHealth : Int = 1000
 
 
 // Type annotation + inference
+var x1, x2, x3 : Int;
+
+x1 = 'Hello world'
+x2 = 'Test my world!'
 
 
 // Multiple variables - type annotation shorthand

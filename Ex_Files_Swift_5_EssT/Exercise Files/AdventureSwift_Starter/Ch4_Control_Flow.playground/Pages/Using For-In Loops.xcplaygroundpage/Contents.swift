@@ -17,8 +17,28 @@ let armorTypes = ["Heavy Plate", "Hunters Gear", "Mage Robes"]
 let weapons = ["Longsword": 150, "Dagger": 25, "Mace": 75]
 
 // Strings and arrays
+//for char in playerGreeting {
+//    print(char)
+//}
+
+//for (index, value) in armorTypes.enumerated() {
+//    print(index, " ", value)
+//}
 
 // Dictionary key-value pairs
 
+//for (w_key, w_value) in (weapons.keys, weapons.values) {
+//    print(w_key)
+//}
+
+for w_value in weapons.values {
+    print(w_value)
+}
+
+
 // Using ranges
+
+for index in 1...10 {
+    print(index)
+}
 

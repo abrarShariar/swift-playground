@@ -26,7 +26,7 @@ t %= 2;
 
 // Modulo (%)
 
-
+//print(100 % 3)
 
 /*  Comparisons (==, !=, >, <, >=, <=)
     Logical operators (!, &&, ||)
@@ -39,4 +39,10 @@ if (20 > 10) {
     print("20 is less than 10")
 }
 
-//print(1...5)
+
+for num in 1...5 {
+    if num % 2 == 0 {
+        print(num)
+    }
+}
+

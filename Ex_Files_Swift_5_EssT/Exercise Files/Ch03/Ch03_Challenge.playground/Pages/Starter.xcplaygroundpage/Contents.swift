@@ -15,40 +15,43 @@
  
  */
 // 1
-var shopItemsArray: [String] = ["Car", "Clothes", "Food"]
-var shopItemsDict: [String: Double] = [:]
-shopItemsDict["Car"] = 90.12
-shopItemsDict["Clothes"] = 23.23
-shopItemsDict["Food"] = 234.12
-shopItemsDict["Wine"] = 100
+var shopItemsArray : [String] = ["Books", "Sushi", "Pen", "Underwear"]
+var shopItemsDictionary : [String: Int] = [:]
+for item in shopItemsArray {
+    shopItemsDictionary[item] = Int.random(in: 100...1000)
+}
 
-// 2
-shopItemsArray.contains("Food")
+var itemIWant = "Pen"
+if (shopItemsArray.contains(itemIWant)) {
+    print("Found my item: \(itemIWant)")
+} else {
+    print("Item not found!!")
+}
 
-// 3
-shopItemsArray.insert("Wine", at: 1)
+shopItemsArray.insert("Avocado", at: 2)
 
-// 4
-var selectedItem = shopItemsArray[1]
+print(shopItemsArray)
 
-// 5
-var selectedItemPrice = shopItemsDict[selectedItem]
+var selectedItem = shopItemsArray[3]
+print(selectedItem)
+var selectedPrice = shopItemsDictionary[selectedItem]
 
-// 6
-var fullArmorSet: Set<String> = ["Sword", "Pistol", "Guns"]
+print(selectedPrice)
 
-// 7
-var currentArmorSet: Set<String> = ["Sword"]
-fullArmorSet.subtract(currentArmorSet)
+var fullArmorSet = Set<String>()
+fullArmorSet.insert("C++")
+fullArmorSet.insert("JavaScript")
+fullArmorSet.insert("Python")
+fullArmorSet.insert("Swift")
+fullArmorSet.insert("Java")
+
+var currentArmorSet = Set<String>()
+currentArmorSet.insert("JavaScript")
+currentArmorSet.insert("Swift")
+
+print(fullArmorSet.intersection(currentArmorSet))
 print(fullArmorSet)
 
+var armorPieceTuple : (name: String, cost: Int, canEquip: Bool) = (name: "Claw", cost: 100,canEquip: true)
 
-// 8
-var armorPieceTuple = (name: "Abrar Shariar", cost: 123.123, canEquip: true)
-
-print(armorPieceTuple.name)
-print(armorPieceTuple.cost)
 print(armorPieceTuple.canEquip)
-
-
-

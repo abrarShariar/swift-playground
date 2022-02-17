@@ -17,7 +17,12 @@
 
  */
 // Test variables
+var hp = 10, maxHP = 100
 
-
+if hp < maxHP {
+    print("All is good!")
+} else if {
+    
+}
 // If statement (<, >, <=, >=, !=, ==)
 

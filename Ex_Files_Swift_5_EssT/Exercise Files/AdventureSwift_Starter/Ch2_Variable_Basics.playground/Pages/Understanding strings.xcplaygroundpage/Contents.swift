@@ -30,3 +30,12 @@ let stringInterp = "\(activeQuest) is a \(questNew) and a number is \(number), D
 print(stringInterp)
 
 
+var name : String = "Apple" + " INC."
+print(name)
+
+print(name.removeLast())
+print(name)
+
+name.append(contentsOf: "Test me")
+print(name)
+

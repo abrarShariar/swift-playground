@@ -17,13 +17,50 @@
  
  */
 // Changing & appending items
+var skillList = ["C++", "JavaScript", "Python", "Swift"]
+print(skillList)
+skillList.append("Java")
+print(skillList)
+
 
 
 //Inserting and removing items
+skillList.remove(at: 2)
+print(skillList)
+
+skillList.insert("LLVM", at: 0)
+
+print(skillList)
 
 
 // Ordering and querying values
 
+if (skillList.contains("Swift")) {
+    print("I am smooth!")
+}
+
+if (!skillList.isEmpty) {
+    print("OOPS!")
+}
+
+
+for skill in skillList {
+    print(skill)
+}
+
+print(skillList.sorted())
+print(print(skillList))
+
+skillList.sort()
+print(skillList)
 
 // 2D arrays and subscripts
+
+var twoDData = [
+    ["C++", "C", "JavaScript", "Python"],
+    [1,2,3,4]
+]
+
+print(type(of: twoDData[0][1]))
+
 

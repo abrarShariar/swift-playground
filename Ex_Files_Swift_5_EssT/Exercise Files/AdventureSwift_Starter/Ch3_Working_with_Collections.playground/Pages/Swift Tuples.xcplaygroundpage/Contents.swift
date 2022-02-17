@@ -17,12 +17,12 @@
 
  */
 // Simple tuple
-
-
-
+var tuple1 : (String, Int) = ("Abrar", 1)
+print(tuple1.1)
 
 // Naming tuple values
-
+var namedTups : (name: String, age: Int) = (name: "Abrar", age: 26)
+print(namedTups.name)
 
 // Naming values with type annotation
 

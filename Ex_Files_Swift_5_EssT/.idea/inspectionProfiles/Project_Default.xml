@@ -1,0 +1,80 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="67">
+            <item index="0" class="java.lang.String" itemvalue="radarclient" />
+            <item index="1" class="java.lang.String" itemvalue="apple-pysemaphore" />
+            <item index="2" class="java.lang.String" itemvalue="wave-kiosk" />
+            <item index="3" class="java.lang.String" itemvalue="atk.extras" />
+            <item index="4" class="java.lang.String" itemvalue="remote_quick" />
+            <item index="5" class="java.lang.String" itemvalue="testautomationextras" />
+            <item index="6" class="java.lang.String" itemvalue="pyobjc-core" />
+            <item index="7" class="java.lang.String" itemvalue="pytest-pythonpath" />
+            <item index="8" class="java.lang.String" itemvalue="setuptools" />
+            <item index="9" class="java.lang.String" itemvalue="remote-pdb" />
+            <item index="10" class="java.lang.String" itemvalue="atk.ta" />
+            <item index="11" class="java.lang.String" itemvalue="atk.verdicts" />
+            <item index="12" class="java.lang.String" itemvalue="unixcommand" />
+            <item index="13" class="java.lang.String" itemvalue="jsonschema" />
+            <item index="14" class="java.lang.String" itemvalue="GitPython" />
+            <item index="15" class="java.lang.String" itemvalue="langdetect" />
+            <item index="16" class="java.lang.String" itemvalue="appleconnect_utils" />
+            <item index="17" class="java.lang.String" itemvalue="pypaid" />
+            <item index="18" class="java.lang.String" itemvalue="cryptography" />
+            <item index="19" class="java.lang.String" itemvalue="uiatest" />
+            <item index="20" class="java.lang.String" itemvalue="pyscard" />
+            <item index="21" class="java.lang.String" itemvalue="bcrypt" />
+            <item index="22" class="java.lang.String" itemvalue="psutil" />
+            <item index="23" class="java.lang.String" itemvalue="paramiko" />
+            <item index="24" class="java.lang.String" itemvalue="boto3" />
+            <item index="25" class="java.lang.String" itemvalue="quickscript" />
+            <item index="26" class="java.lang.String" itemvalue="remoteschedule" />
+            <item index="27" class="java.lang.String" itemvalue="pyusb" />
+            <item index="28" class="java.lang.String" itemvalue="sphinxcontrib-fulltoc" />
+            <item index="29" class="java.lang.String" itemvalue="sphinx_js" />
+            <item index="30" class="java.lang.String" itemvalue="pyrui" />
+            <item index="31" class="java.lang.String" itemvalue="pbr" />
+            <item index="32" class="java.lang.String" itemvalue="robotics" />
+            <item index="33" class="java.lang.String" itemvalue="cffi" />
+            <item index="34" class="java.lang.String" itemvalue="automationresultcode" />
+            <item index="35" class="java.lang.String" itemvalue="pycoreautomation" />
+            <item index="36" class="java.lang.String" itemvalue="swe-ci" />
+            <item index="37" class="java.lang.String" itemvalue="requests" />
+            <item index="38" class="java.lang.String" itemvalue="pyasn1" />
+            <item index="39" class="java.lang.String" itemvalue="pygal" />
+            <item index="40" class="java.lang.String" itemvalue="xmodem" />
+            <item index="41" class="java.lang.String" itemvalue="atk.logger" />
+            <item index="42" class="java.lang.String" itemvalue="ansible_vault" />
+            <item index="43" class="java.lang.String" itemvalue="pycrypto" />
+            <item index="44" class="java.lang.String" itemvalue="py-nfa-cli" />
+            <item index="45" class="java.lang.String" itemvalue="pytest-mock" />
+            <item index="46" class="java.lang.String" itemvalue="gauntlet" />
+            <item index="47" class="java.lang.String" itemvalue="nxpreader" />
+            <item index="48" class="java.lang.String" itemvalue="six" />
+            <item index="49" class="java.lang.String" itemvalue="pyasn1_modules" />
+            <item index="50" class="java.lang.String" itemvalue="pytest" />
+            <item index="51" class="java.lang.String" itemvalue="ecdsa" />
+            <item index="52" class="java.lang.String" itemvalue="pyserial" />
+            <item index="53" class="java.lang.String" itemvalue="dateparser" />
+            <item index="54" class="java.lang.String" itemvalue="pyresults_splunk" />
+            <item index="55" class="java.lang.String" itemvalue="pycoreautomation_ext" />
+            <item index="56" class="java.lang.String" itemvalue="sphinx" />
+            <item index="57" class="java.lang.String" itemvalue="pandas" />
+            <item index="58" class="java.lang.String" itemvalue="testlogs" />
+            <item index="59" class="java.lang.String" itemvalue="reCertifi" />
+            <item index="60" class="java.lang.String" itemvalue="pypdf2" />
+            <item index="61" class="java.lang.String" itemvalue="pylint" />
+            <item index="62" class="java.lang.String" itemvalue="pytz" />
+            <item index="63" class="java.lang.String" itemvalue="testlogger" />
+            <item index="64" class="java.lang.String" itemvalue="pycryptodome" />
+            <item index="65" class="java.lang.String" itemvalue="openpyxl" />
+            <item index="66" class="java.lang.String" itemvalue="pyresultsservice" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

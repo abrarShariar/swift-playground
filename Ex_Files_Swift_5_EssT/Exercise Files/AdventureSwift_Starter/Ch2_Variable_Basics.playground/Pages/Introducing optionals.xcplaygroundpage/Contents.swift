@@ -12,12 +12,9 @@
  [Previous Topic](@previous)                                                 [Next Topic](@next)
 
 */
-// Creating optionals
-let name: String? = "Abrar"
 
+var testOptional1 : String? = "Test me"
+var testOp2 : Int?
 
-print(name!)
-
-
-// Forced unwrapping
+print(testOptional1)
 

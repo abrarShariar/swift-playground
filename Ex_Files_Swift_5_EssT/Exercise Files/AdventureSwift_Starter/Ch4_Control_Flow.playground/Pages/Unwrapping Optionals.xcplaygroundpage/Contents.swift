@@ -30,5 +30,17 @@ var questDirectory = [
     ]
 ]
 
+
+//itemGathered = "Python"
 // Optional binding
+if let item = itemGathered {
+    print("You found an \(item)")
+} else {
+    print("Sorry, no item found")
+}
+
+if let item = itemGathered, let shop = isShopOpen {
+    print("You have an \(item) and \(shop)")
+}
+
 

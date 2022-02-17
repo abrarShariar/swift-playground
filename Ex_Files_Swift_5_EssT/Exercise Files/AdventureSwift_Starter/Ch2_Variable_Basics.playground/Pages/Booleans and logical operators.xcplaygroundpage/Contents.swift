@@ -15,7 +15,15 @@
  */
 // Test variable
 
+var isShowNotification : Bool = false
+print("isShowNotification = \(isShowNotification) ")
+isShowNotification = true
+
+let constBool : Bool = true
 
 // Logical operators (!, &&, ||)
 
+if (isShowNotification && constBool) {
+    print("Both of the variables are done and true!")
+}
 

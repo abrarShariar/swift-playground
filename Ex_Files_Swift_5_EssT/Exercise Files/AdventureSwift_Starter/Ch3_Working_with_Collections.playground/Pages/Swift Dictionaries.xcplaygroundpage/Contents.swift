@@ -15,21 +15,33 @@
 
  */
 // Creating dictionaries
-var scores: [String: Double] = [:];
+//var scores: [String: Double] = [:];
+//
+//scores["LAGox"] = 19.123
+//scores["NYTime"] = 123.00
+//scores["BD"] = 0.00
+//
+//// Accessing and modifying values
+//
+//print(scores)
+//print(scores["BD"]!)
+//
+//scores.values
+//
+//print(scores.keys.count)
+//print(scores.values.count)
+//
+//// All keys and values
+///
 
-scores["LAGox"] = 19.123
-scores["NYTime"] = 123.00
-scores["BD"] = 0.00
+var testDict : [String : Int] = ["C":1]
+testDict["C++"] = 100
 
-// Accessing and modifying values
+let allKeys = [String](testDict.keys)
+let allValues = testDict.values
 
-print(scores)
-print(scores["BD"]!)
-
-scores.values
-
-print(scores.keys.count)
-print(scores.values.count)
-
-// All keys and values
+print(type(of: allKeys))
+print(allKeys[1])
+print(allValues)
+print(type(of: allValues))
 

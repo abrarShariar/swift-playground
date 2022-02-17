@@ -20,9 +20,8 @@ var mySet2 : Set<String> = ["JavaScript", "Python", "C++"]
 
 print(mySet.intersection(mySet2))
 
-print(mySet2.subtract(other: mySet2))
 
-//print(mySet2)
+print(mySet2)
 
 
 

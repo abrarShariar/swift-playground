@@ -17,3 +17,6 @@ var antiHelloWorld = "No Hello!!!!"
 // array
 let skills = ["C++", "Java", "Python", "JavaScript"]
 print(skills)
+/*
+ Hello worls
+ */
