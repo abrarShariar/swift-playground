@@ -18,10 +18,17 @@
 
  */
 // Test variables
-let shopItems = ["Magic wand": 10, "Iron Helm": 5, "Excalibur": 1000]
+let shopItems = ["Magic wand": 10, "Iron Helm": 16, "Excalibur": 1000]
 let currentGold = 16
 
 // Guard statement with for-in loop
+for (item, price) in shopItems {
+    guard price < currentGold else {
+        print("Price is out of range for \(item)")
+        continue
+    }
+    print("Item = \(item), price \(price)")
+}
 
 
 // Guard check for specific item

@@ -19,6 +19,17 @@ let hp = 26
 let mp = 24
 
 // Simple switch
+let numberOfPasmoPasses : Int = 1
+switch numberOfPasmoPasses {
+case 1:
+    print("1 passmo only")
+case 2:
+    print("I am twooo!")
+default:
+    print("Me default")
+    break
+}
+
 
 
 // Complex variations

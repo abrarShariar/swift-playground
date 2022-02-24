@@ -16,13 +16,50 @@
  
  */
 // 1
+var lefthandWeapon : String?
+var righthandWeapon : String?
+
+lefthandWeapon = "Sword"
+righthandWeapon = "Knife"
 
 // 2
+if let lW = lefthandWeapon {
+    print("left hand weapon is = \(lW)")
+}
+
+if let rW = righthandWeapon {
+    print("right hand weapon is = \(rW)")
+}
 
 // 3
+let playerExp = [
+    "Abrar": 100,
+    "Michael": 500,
+    "Talha": 200,
+    "XYZ": 1
+]
 
 // 4
+for (name, value) in playerExp {
+    guard value > 1 else {
+        print("Player \(name) is less than or equal 1")
+        continue
+    }
+    print("Name = \(name), value = \(value)")
+    
+    switch value {
+    case 10...100:
+        print("Silver")
+    case 101...200:
+        print("Gold")
+    case 201...1000:
+        print("Diamond")
+    default:
+        print("Void")
+    }
+}
 
 // 5
 
 // 6
+
